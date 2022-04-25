@@ -1,0 +1,44 @@
+{
+    "name": "UISystem",
+    "maps": [
+        {
+            "name": "UI",
+            "id": "7b1b6b33-efe8-4a82-8e16-929968d410c4",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "9328b52e-17db-420d-a66e-61d304a89516",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d048046d-4510-4ee2-af6b-a0f63839b341",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f4f27e42-e7d7-48a5-bf46-46c4f240871b",
+                    "path": "<Touchscreen>/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
